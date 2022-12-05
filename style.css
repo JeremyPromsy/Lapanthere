@@ -731,6 +731,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .portfolio-row {
@@ -1030,6 +1031,4 @@ h4 {
         text-align: center;
     }
 }
-
-
 
