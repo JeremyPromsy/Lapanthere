@@ -663,7 +663,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -739,7 +739,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
     padding: 40px 40px 40px 40px;
 }
 
@@ -762,6 +762,10 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+}
+
+.col-sm-12 .mg-lg .tc-white {
+    color:white;
 }
 
 .btn-atomic-tangerine {
