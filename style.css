@@ -7,8 +7,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-a,
-button {
+a,button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
@@ -31,7 +30,6 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -90,10 +88,6 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
 
 .b-parallax {
     background-attachment: fixed;
@@ -231,7 +225,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+   color: white;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -254,6 +248,10 @@ a:hover {
 
 .l-bloc .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, .6);
+}
+
+.row .col-sm-12 a {
+    color: white;
 }
 
 .d-bloc .panel .btn-wire,
@@ -320,7 +318,7 @@ a:hover {
     margin-right: -16px;
     float: right;
     z-index: 1;
-}
+  }
 
 .nav > li {
     float: left;
@@ -355,12 +353,7 @@ a:hover {
     float: left;
 }
 
-.nav-invert .navbar-header,
-.nav-invert .navbar-brand {
-    float: right;
-    position: relative;
-    z-index: 2;
-}
+
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -654,9 +647,6 @@ a {
     color: #575757!important;
 }
 
-.container {
-    max-width: 1000px;
-}
 
 .hero-bloc-text {
     font-size: 38px;
@@ -677,7 +667,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -741,6 +731,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .portfolio-row {
@@ -753,7 +744,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,15 +762,19 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #c23e0a;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
+}
+
+.col-sm-12 .mg-lg .tc-white {
+    color:white;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #c23e0a;
     color: #FFFFFF!important;
 }
 
@@ -797,7 +792,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #c23e0a!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -813,16 +808,12 @@ h4 {
     background-image: url("img/dots-bg.png");
 }
 
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
-
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("Image/Agence La Panthère Entreprise Web Design à Lyon.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("Image/Agence-La-Panthère-Entreprise-Web-Design-à-Lyon - Présentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1040,3 +1031,4 @@ h4 {
         text-align: center;
     }
 }
+
